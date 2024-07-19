@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+	<title>My Anime List</title>
+	<link rel="stylesheet"
+href="styles.css">
+</head>
+<body>
+	<div id="intro">
+		<h1>Welcome to My anime List</h1>
+		<button id="enter-btn">Enter</button?
+	</div>
+	<div id="main-menu" style="display:none;">
+		<h2>My Watched Anime<h2>
+		<u1 id="anime-list">
+		</u1>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

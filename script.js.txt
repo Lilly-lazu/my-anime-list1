@@ -1,0 +1,16 @@
+document.getElementById('enter-btn').addEventListener('click', () => {
+document.getElementById('intro').style.display='none';
+document.getElementById('main-menu')style.display='block';}0;
+
+const animeList = [{title: 'Attack on Titan', rating: 5}, {title: 'Demon Slayer', rating: 5}, {title: 'Bleach', rating: 5}];
+
+function displayAnimeList(){
+	const list = document.getElementById('anime-list');
+	animeList.forEach((anime, index) => {
+	const listItem = document.createElement('li');
+	listItem.innerHTML=`${index + 1}. ${anime.title} <span class="rating">$
+{'★'.repeat(anime.rating)}${'☆'.repeat(5 - anime.rating)}</span>`;
+	list.appendChild(listItem);
+});
+}
+displayAnimeList();
